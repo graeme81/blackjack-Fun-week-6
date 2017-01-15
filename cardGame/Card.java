@@ -11,8 +11,8 @@ public class Card{
     this.value = value;
   }
 
-  public Value getValue(){return this.value;}
-  public Suit getSuit(){return this.suit;}
+  public Value getValue(){ return this.value;}
+  public Suit getSuit(){ return this.suit;}
 
 
 }

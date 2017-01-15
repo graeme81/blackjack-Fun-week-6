@@ -8,14 +8,11 @@ public class Player{
   private Card card;
 
   public Player(String name){
-
     this.name = name;
     this.hand = new ArrayList<Card>();
-
   }
 
   public void takeCard(Card card){
-    //card = deck.topCard();
     hand.add(card);
   }
 

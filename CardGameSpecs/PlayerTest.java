@@ -20,6 +20,11 @@ public class PlayerTest{
   }
 
   @Test 
+  public void getPlayerName(){
+    assertEquals("Joe", player.getName());
+  }
+
+  @Test 
   public void cardsDeltFromDeckToHand(){
     
     assertEquals(Suit.DIAMONDS, player.getCard().getSuit());

@@ -1,7 +1,7 @@
-package cardGame;
-import java.util.*;
+ package cardGame;
+ import java.util.*;
 
-public class HighCardRunner {
+ class HighCard {
 
   public static void main(String[] args){
 
@@ -18,16 +18,18 @@ public class HighCardRunner {
 
     card = player1.getCard();
     int p1 = card.getValue().ordinal()+1;
-    card = player1.getCard();
+    card = player2.getCard();
     int p2 = card.getValue().ordinal()+1;
 
-    if (p1 > p2){
+    System.out.println(p1+ "  ..  " + p2);
+
+
+    if (p1 > p2)
       System.out.println(player1.getName() + " wins!");
-    }
-    else if (p2 > p1){
+    else if (p2 > p1)
       System.out.println(player2.getName() + " wins!");
-    }
-    else System.out.println("PUSH!");
+    else
+     System.out.println("DRAW!");
 
   }
 }

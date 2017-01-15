@@ -16,6 +16,7 @@ public class CardTest{
     assertEquals(Suit.HEARTS, card.getSuit());
   }
 
+  @Test
   public void isCardTheFour(){
     assertEquals(Value.FOUR,card.getValue());
   }

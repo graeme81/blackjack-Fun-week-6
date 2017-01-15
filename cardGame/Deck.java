@@ -23,11 +23,14 @@ public class Deck{
     }
   }
 
+  public void shuffle(){ Collections.shuffle(deck);}
   public int deckSize(){ return deck.size();}
   public Card topCard(){ return deck.remove(0);}
 
+
   //for testing purpose
   public Card card15(){ return deck.get(14);}
+  public Card card102(){ return deck.get(101);}
 
 }
 

@@ -16,9 +16,9 @@
     card = deck.topCard();
     player2.takeCard(card);
 
-    card = player1.getCard();
+    card = player1.getCard(0);
     int p1 = card.getValue().ordinal()+1;
-    card = player2.getCard();
+    card = player2.getCard(0);
     int p2 = card.getValue().ordinal()+1;
 
     System.out.println(p1+ "  ..  " + p2);

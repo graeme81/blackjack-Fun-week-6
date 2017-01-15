@@ -22,7 +22,7 @@ public class Player{
   public void clearHand(){ hand.clear();}
 
   public String getName(){return name;}
-  public Card getCard(){ return hand.get(0);}
+  public Card getCard(int i){ return hand.get(i);}
   public Card getSecondCard(){ return hand.get(1);}
   public int getHandSize(){ return hand.size();}
 

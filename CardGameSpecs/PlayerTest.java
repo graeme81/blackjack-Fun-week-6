@@ -27,8 +27,8 @@ public class PlayerTest{
   @Test 
   public void cardsDeltFromDeckToHand(){
     
-    assertEquals(Suit.DIAMONDS, player.getCard().getSuit());
-    assertEquals(Value.ACE,player.getCard().getValue());
+    assertEquals(Suit.DIAMONDS, player.getCard(0).getSuit());
+    assertEquals(Value.ACE,player.getCard(0).getValue());
 
     assertEquals(Suit.DIAMONDS, player.getSecondCard().getSuit());
     assertEquals(Value.TWO,player.getSecondCard().getValue());

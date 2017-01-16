@@ -1,4 +1,37 @@
 // package cardGame;
+
+// public class Dealer{
+
+//   private int num;
+
+//   public Dealer(int num){
+//     this.num = num;
+//   }
+
+//   public int dealCards(int num){
+
+    
+//   }
+
+
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import java.util.*;
 // //import java.util.ArrayList.*;
 

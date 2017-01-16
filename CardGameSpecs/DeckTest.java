@@ -13,7 +13,7 @@ public void before(){
 }
 
 @Test
-public void deckIs52Cards(){
+public void deckIs52Cards(){ 
   assertEquals(208, deck.deckSize());
 }
 
@@ -30,7 +30,7 @@ public void cardsDeltFromDeck(){
   card = deck.topCard();
   card = deck.topCard();
   card = deck.topCard();
-
+  // 4 decks is 208 cards - 4 cards is 204
   assertEquals(204, deck.deckSize());
 }
 
